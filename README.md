@@ -20,9 +20,10 @@ schema file - `./source_data_schema.json`.
 ## Guide & Tips:
  
 - The team is interested in the approach you follow for solving this problem
-- Approach this problem as you would to build an end to end ETL pipeline.
-- Keep in mind that data in production almost always has anomalies, and a robust pipeline should account for and gracefully handle such situations.
-- Most of all this is your time to shine, and show us your Software engineering prowess, and to demonstrate that you approach this problem like a Data Engineer.
+- Approach this problem as you would to build an end to end ETL pipeline that reads from a sources such as distributed file system or a message queue, and then deposits this data for analytics into a data lake.
+- Keep in mind that data in production almost always has anomalies, such as schema violations, incomplete rows, corruped data etc. A robust pipeline should account for and gracefully handle such situations
+- Most of all this is your time to shine, and show us your engineering prowess, and to demonstrate that you approach this problem like a Data Engineer working with large amounts of data
+- Think about how you would test the system, and what you think would be required before it could be moved into production
 - You can use Java / Python / Scala.
 - Think of the future iterations on your solutions and how easily it can evolve and scale
 - Think about the execution environment and how portable your solution is, eg. whether you choose to build a distributed
