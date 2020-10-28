@@ -1,4 +1,4 @@
-# hipages Full Stack Engineer Tech Challenge
+# hipages Data Engineer Tech Challenge
 
 Welcome to the hipages Data Engineer Tech Challenge! The purpose of this challenge is to help us assess your 
 technical skills. We know that you have limited time to devote to this task and may not be able to provide the 
